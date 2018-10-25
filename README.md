@@ -18,9 +18,9 @@ Show some jokes via curl.
 
 # The Details.
 
-This is a Python 3 / Flask project that currently exposes one endpoint.  You need to deploy it to 
+This is a Python 3 / Flask project that currently exposes one endpoint.  You need to deploy it to kubernetes on AWS.  You don't have to build the cluster, it's already up.
 
-You have been provided with shell scripts that take care of some of the fiddly bits around working with Python on Docker/K8s.  These scripts may or may not have bugs in them.  
+You have been provided with shell scripts that take care of some of the fiddly bits around working with Python on Docker/K8s.
 
 
 # Get it running locally
@@ -52,6 +52,7 @@ Collecting chardet==3.0.4 (from -r ./requirements.txt (line 2))
 
 
 Next run it locally
+
 ```
 12:50 PM|kb|~/dev/H/chuck> bin/run
 ---------------------------------------------------------
