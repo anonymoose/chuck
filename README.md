@@ -70,13 +70,14 @@ You should be able to curl the api and get some facts back in JSON format.  See 
 # Access
 
 You'll need AWS access to push to the "chuck" registry.
-Run this in any shell from which you'll be running `docker login` and `docker push`
+Run this in any shell from which you'll be running `docker login` and `docker push`.  *You will be provided with real values via email*
 
 ```
 export AWS_ACCESS_KEY_ID=AKIAxxxxxxxxxxxxxxxQ
 export AWS_SECRET_ACCESS_KEY=9l+LfxxxxxxxxxxxxxxxxxxxxxxxxxxxxeCk
 export AWS_DEFAULT_REGION=us-east-1
 ```
+
 
 Next, log into the repository.  If you are unfamiliar with Docker repositories (ECR) that's not a problem since its cloud-specific, we'll get you set up.
 
