@@ -27,8 +27,8 @@ if [ ! -f $SCRIPTPATH/../venv/bin/activate ]; then
 fi
 
 export CC_LOCAL=1
-source $SCRIPTPATH/../venv/bin/activate
-source $SCRIPTPATH/../.env
+source $SCRIPTPATH/../venv/bin/activate 
+source $SCRIPTPATH/../.env > /dev/null 2>&1
 export FLASK_ENV=development
 export FLASK_DEBUG=0
 export FLASK_APP=chuck
