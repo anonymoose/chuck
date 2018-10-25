@@ -22,4 +22,4 @@ source $SCRIPTPATH/../.env
 export FLASK_ENV=production
 export FLASK_DEBUG=0
 export FLASK_APP=chuck
-gunicorn -b 127.0.0.1:$PORT chuck:app
+gunicorn -b :$PORT chuck:app
