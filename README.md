@@ -127,7 +127,7 @@ Curl your endpoint and show some jokes on the AWS kubernetes.
 
 # Extra credit
 
-- Ken has been fired from the company.  His name is hard coded into the source.  Modify the source code to make the name configurable and alter the deployment to pass the new name as an environment variable.
+- Ken has been fired from the company for using Prophet to mine bitcoin.  His name is hard coded into the source.  Modify the source code to make the name configurable and alter the deployment to pass the new name as an environment variable.
 
 
 
