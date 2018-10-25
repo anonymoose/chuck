@@ -120,6 +120,8 @@ Create all requisite deployment files for kubernetes to deploy this to k8s and a
 
 You can create an ingress, or not, depending on your tastes.
 
+Scale chuck to 2 or more replicas.
+
 Curl your endpoint and show some jokes on the AWS kubernetes.
 
 
